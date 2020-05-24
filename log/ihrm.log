@@ -1,0 +1,7 @@
+2020-05-24 21:21:37,321 INFO [root] [__init__.py(<module>:9)] - 测试日志是否会打印！
+2020-05-24 21:21:37,698 INFO [root] [ihrm_dep.py(test_dep:30)] - 登录的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '83fb630c-7abe-4d20-9893-034094a02aad'}
+2020-05-24 21:21:37,699 INFO [root] [ihrm_dep.py(test_dep:36)] - 请求头中令牌：{'Content-Type': 'application/json', 'Authorization': 'Bearer 83fb630c-7abe-4d20-9893-034094a02aad'}
+2020-05-24 21:21:37,818 INFO [root] [ihrm_dep.py(test_dep:41)] - 添加部门的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1264547190223745024'}}
+2020-05-24 21:21:37,909 INFO [root] [ihrm_dep.py(test_dep:50)] - 查询部门的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1264547190223745024', 'pid': None, 'companyId': '1', 'name': '牛牛', 'code': '66666', 'managerId': None, 'manager': '花花', 'introduce': '部门介绍', 'createTime': None}}
+2020-05-24 21:21:38,020 INFO [root] [ihrm_dep.py(test_dep:58)] - 修改部门的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-05-24 21:21:38,119 INFO [root] [ihrm_dep.py(test_dep:66)] - 删除部门的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
